@@ -1,0 +1,106 @@
+/**
+ * Define fonts
+ */
+ @font-face {
+  font-family: "btb-black";
+  src: url("../fonts/Battambang/Battambang-Black.ttf");
+}
+.font-btb-black {
+font-family: "btb-black";
+}
+@font-face {
+font-family: "btb-bold";
+src: url("../fonts/Battambang/Battambang-Bold.ttf");
+}
+.font-btb-bold {
+font-family: "btb-bold";
+}
+@font-face {
+font-family: "btb-light";
+src: url("../fonts/Battambang/Battambang-Light.ttf");
+}
+.font-btb-light {
+font-family: "btb-light";
+}
+@font-face {
+font-family: "btb-regular";
+src: url("../fonts/Battambang/Battambang-Regular.ttf");
+}
+.font-btb {
+font-family: "btb-regular";
+}
+@font-face {
+font-family: "btb-thin";
+src: url("../fonts/Battambang/Battambang-Thin.ttf");
+}
+.font-btb-thin {
+font-family: "btb-thin";
+}
+
+@font-face {
+font-family: "dangrek";
+src: url("../fonts/Dangrek/Dangrek-Regular.ttf");
+}
+.font-dangrek {
+font-family: "dangrek";
+}
+
+@font-face {
+font-family: "kantumruy";
+src: url("../fonts/Kantumruy/Kantumruy-Regular.ttf");
+}
+.font-ktr {
+font-family: "kantumruy";
+}
+@font-face {
+font-family: "kantumruy-light";
+src: url("../fonts/Kantumruy/Kantumruy-Light.ttf");
+}
+.font-ktr-light {
+font-family: "kantumruy-light";
+}
+@font-face {
+font-family: "kantumruy-bold";
+src: url("../fonts/Kantumruy/Kantumruy-Bold.ttf");
+}
+.font-ktr-bold {
+font-family: "kantumruy-bold";
+}
+@font-face {
+font-family: moul;
+src: url("../fonts/Moul/Moul-Regular.ttf");
+}
+.font-muol {
+font-family: moul;
+}
+@font-face {
+font-family: moulpali;
+src: url("../fonts/Moulpali/Moulpali-Regular.ttf");
+}
+.font-moulpali {
+font-family: moulpali;
+}
+@font-face {
+font-family: preahvihear;
+src: url("../fonts/Preahvihear/Preahvihear-Regular.ttf");
+}
+.font-pvh {
+font-family: preahvihear;
+}
+@font-face {
+font-family: siemreap;
+src: url("../fonts/Siemreap/Siemreap-Regular.ttf");
+}
+.font-sr {
+font-family: siemreap;
+}
+/**
+ * Import tailwindcss
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  font-family: Arial, Helvetica, sans-serif, "kantumruy";
+}
