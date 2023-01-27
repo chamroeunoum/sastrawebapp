@@ -1,10 +1,10 @@
 <script setup>
 import { useNotification } from 'naive-ui'
-import Regulator from './Regulator.vue'
+import Book from './Book.vue'
 </script>
 <template>
   <div class="flex flex-wrap justify-between">
-    <Regulator v-for="i in 10" :key="i" :image="'https://picsum.photos/'+(200*1)" :title="'Title' + i" :desc="'Desc : ' + i" ></Regulator>
+    <Book v-for="i in 10" :key="i" :image="'https://picsum.photos/'+(200*1)" :title="'Title' + i" :desc="'Desc : ' + i" ></Book>
   </div>
 </template>
 <script>
